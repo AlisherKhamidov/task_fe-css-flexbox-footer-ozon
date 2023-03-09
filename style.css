@@ -7,6 +7,14 @@ footer {
   background-color: #f2f5f9;
 }
 
+.footer-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: "GTEestiProDisplay";
+  color: #677C96;
+}
+
 .qr-container {
   width: 250px;
   height: 322px;
@@ -19,6 +27,8 @@ footer {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  margin-right: 50px;
+  margin-bottom: 20px;
 }
 
 .qr-code {
@@ -27,8 +37,7 @@ footer {
 }
 
 .qr-container-text {
-  text-align: center;
-  font-family: "GTEestiProDisplay";
+  text-align: center;  
 }
 
 .store_labels {
@@ -38,6 +47,38 @@ footer {
 
 .store {
   height: 42px;  
+}
+
+.footer-menue {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer-link {
+  text-decoration: none;
+  font-family: "GTEestiProDisplay";
+  color: #677C96;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.footer-link:hover {
+  color: #005BFF;
+}
+
+.footer-menue-column {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 80px;
+  margin-bottom: 20px;
+}
+
+.footer-menue-head {
+  color: #001A34;
+  font-size: 16px;
 }
 
 @font-face {
