@@ -1,7 +1,41 @@
 /* твой код */
+footer {
+  background-color: #f2f5f9;
+  padding: 40px;
+}
 
+.qr-container {
+  border: 1px solid #707F8D;
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 250px;
+  height: 322px;
+}
+
+.qr-image {
+  height: 190px;
+  width: 190px;
+}
+
+.qr-text {
+  text-align: center;
+  font-family: "GTEestiProDisplay";
+  color: #707f8d;
+}
+
+.logo-container{
+  display: flex;
+  gap: 16px;
+}
+.store-logo {
+  height: 42px;
+}
 
 @font-face {
   font-family: 'GTEestiProDisplay';
-  src: url('./fonts/GT-Eesti-Pro-Display-Regular.ttf'); 
+  src: url('./fonts/GT-Eesti-Pro-Display-Regular.ttf');
 }
