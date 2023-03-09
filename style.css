@@ -49,6 +49,11 @@ footer {
   height: 42px;  
 }
 
+.footer-menue-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .footer-menue {
   display: flex;
   justify-content: flex-start;
@@ -84,4 +89,66 @@ footer {
 @font-face {
   font-family: 'GTEestiProDisplay';
   src: url('./fonts/GT-Eesti-Pro-Display-Regular.ttf'); 
+}
+
+.socmed-rights-visual_ver {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  height: 100px;
+  flex-wrap: wrap;
+}
+
+.socmedia-links {
+  display: flex;
+  align-items: flex-end;
+}
+
+.socmedia-logo {
+  height: 24px;
+  width: 24px;
+  padding: 10px;
+  margin-right: 16px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.vk-logo:hover {
+  background-color: #0077ff;  
+}
+
+.odnoklassniki-logo:hover {
+  background-color: #eb7d01;  
+}
+
+.telegram-logo:hover {
+  background-color: #25a2e0;  
+}
+
+.rights-visual_ver {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 270px;
+}
+
+.copyrights {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.vis_impaired_ver {
+  font-size: 16px;
+  padding: 0px 20px;
+  background-color: #005BFF;
+  border: none;
+  border-radius: 15px;
+  width: 270px;
+  height: 48px;
+  font-family: "GTEestiProDisplay";
+  color: white;
+}
+
+.vis_impaired_ver:hover {
+  filter:brightness(90%);
 }
