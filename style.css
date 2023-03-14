@@ -4,6 +4,11 @@ footer {
   padding: 40px;
 }
 
+.footer-container {
+  display: flex;
+  width: 100%;
+}
+
 .qr-container {
   border: 1px solid #707F8D;
   border-radius: 16px;
@@ -14,6 +19,7 @@ footer {
   align-items: center;
   width: 250px;
   height: 322px;
+  margin-right: 60px;
 }
 
 .qr-image {
@@ -27,13 +33,111 @@ footer {
   color: #707f8d;
 }
 
-.logo-container{
+.logo-container {
   display: flex;
   gap: 16px;
 }
+
 .store-logo {
   height: 42px;
 }
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-menue {
+  display: flex;
+}
+
+
+.menue-column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+}
+
+.menue-element,
+.menue-heading {
+  margin-bottom: 8px;
+  text-decoration: none;
+  color: #707F8D;
+  font-family: 'GTEestiProDisplay';
+  font-size: 14px;
+}
+
+.menue-element:hover {
+  color: #005bff;
+}
+
+.menue-heading {
+  color: #001a34;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.media-icon {
+  height: 30px;
+  padding: 6px;
+  background-color: white;
+  border-radius: 11px;
+  margin-right: 12px;
+}
+
+.media-icon:hover {
+  background-color: #4680C2;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: flex-end;
+  height: 120px;
+}
+
+.rights-reserved {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.social-media {
+  display: flex;
+  align-items: flex-end;
+  margin-right: 30px;
+}
+
+.reserved-text {
+  width: 250px;
+  font-family: 'GTEestiProDisplay';
+  font-size: 12px;
+  color: #707F8D;
+  margin-bottom: 16px;
+}
+
+.btn-poor-vision {
+  background-color: #005bff;
+  color: white;
+  font-family: 'GTEestiProDisplay';
+  padding: 16px 24px;
+  text-decoration: none;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.btn-poor-vision:hover {
+  filter: brightness(.8);
+}
+
+.glasses {
+  height: 18px;
+}
+
+
 
 @font-face {
   font-family: 'GTEestiProDisplay';
